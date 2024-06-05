@@ -42,7 +42,7 @@
          Hij blijft gemotiveerd en werkt hard om de doelen te bereiken.</p>
       <br/>
       <h3>•	Wat is het effect ervan op jou?</h3>
-      <p> Het doorzettingsvermogen van deze groepsgenoot inspireert me 
+      <p> Het doorzettingsvermogen inspireert me 
           en moedigt me aan om ook door te zetten bij uitdagingen.
           Het geeft me het gevoel dat we als team altijd een manier zullen vinden om succesvol te zijn.</p> 
       <br/>
