@@ -1,3 +1,6 @@
+# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
 name: Build and deploy Node.js app to Azure Web App - pdpersonal
 
 on:
@@ -23,17 +26,12 @@ jobs:
           npm install
           npm run build --if-present
           npm run test --if-present
-
-      - name: Zip artifact for deployment
-        run: |
-          mkdir output
-          Compress-Archive -Path * -DestinationPath output/release.zip
-
+      
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
           name: node-app
-          path: output/release.zip
+          path: .
 
   deploy:
     runs-on: ubuntu-latest
@@ -49,10 +47,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: node-app
-
-      - name: unzip artifact for deployment
-        run: unzip release.zip
-
+      
       - name: Login to Azure
         uses: azure/login@v1
         with:
@@ -67,3 +62,4 @@ jobs:
           app-name: 'pdpersonal'
           slot-name: 'Production'
           package: .
+          
