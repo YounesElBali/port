@@ -17,26 +17,10 @@ const sidebarTopItems = [
   {
     Icon: GithubIcon,
     path: '/github',
-  },
-  {
-    Icon: CodeIcon,
-    path: '/projects',
-  },
-  {
-    Icon: PencilIcon,
-    path: '/articles',
-  },
-  {
-    Icon: MailIcon,
-    path: '/opdracht1',
-  },
+  }
 ];
 
 const sidebarBottomItems = [
-  {
-    Icon: AccountIcon,
-    path: '/opdracht1',
-  },
   {
     Icon: SettingsIcon,
     path: '/settings',

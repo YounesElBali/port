@@ -16,24 +16,19 @@ const explorerItems = [
     icon: 'html_icon.svg',
   },
   {
-    name: 'contact.css',
-    path: '/contact',
+    name: 'opdracht2.css',
+    path: '/opdracht2',
     icon: 'css_icon.svg',
   },
   {
-    name: 'projects.js',
-    path: '/projects',
+    name: 'opdracht3.js',
+    path: '/opdracht3',
     icon: 'js_icon.svg',
   },
   {
-    name: 'articles.json',
-    path: '/articles',
+    name: 'opdracht4.json',
+    path: '/opdracht3',
     icon: 'json_icon.svg',
-  },
-  {
-    name: 'github.md',
-    path: '/github',
-    icon: 'markdown_icon.svg',
   },
 ];
 
