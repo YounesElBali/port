@@ -28,14 +28,14 @@ const sidebarTopItems = [
   },
   {
     Icon: MailIcon,
-    path: '/contact',
+    path: '/opdracht1',
   },
 ];
 
 const sidebarBottomItems = [
   {
     Icon: AccountIcon,
-    path: '/about',
+    path: '/opdracht1',
   },
   {
     Icon: SettingsIcon,

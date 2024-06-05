@@ -14,7 +14,7 @@ const contactItems = [
   {
     social: 'github',
     link: 'itsnitinr',
-    href: 'https://github.com/itsnitinr',
+    href: 'https://github.com/YeB29',
   },
   {
     social: 'linkedin',
