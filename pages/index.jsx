@@ -14,12 +14,7 @@ export default function HomePage() {
           <div className={styles.content}>
             <h1 className={styles.name}>Younes el Bali</h1>
             <h6 className={styles.bio}>Full Stack Web Developer</h6>
-            <Link href="/projects">
-              <button className={styles.button}>View Work</button>
-            </Link>
-            <Link href="/contact">
-              <button className={styles.outlined}>Contact Me</button>
-            </Link>
+           <p>Ik ben een innovatie development afstudeerder</p>
           </div>
           <Illustration className={styles.illustration} />
         </div>

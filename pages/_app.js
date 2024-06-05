@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Layout from "../components/Layout";
-import Head from "../components/Head";
 import "../styles/globals.css";
 import "../styles/themes.css";
 
@@ -17,7 +16,6 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <Layout>
-      <Head title={`Younes el Bali | ${pageProps.title}`} />
       <Component {...pageProps} />
     </Layout>
   );
