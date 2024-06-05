@@ -30,6 +30,11 @@ const explorerItems = [
     path: '/opdracht3',
     icon: 'json_icon.svg',
   },
+  {
+    name: 'geleerd.js',
+    path: '/geleerd',
+    icon: 'js_icon.svg',
+  },
 ];
 
 const Explorer = () => {

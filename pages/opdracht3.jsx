@@ -14,15 +14,23 @@
       <br/>
       <h3> Beschrijving van bedrijven die je NIET leuk vindt (en waarom!) </h3>
       <br/>
-      <p>PwC: Ik vond PwC minder aantrekkelijk omdat ik niet de drang heb om in de consultancy te gaan werken. Consultancy lijkt me minder passend omdat het vaak meer gericht is op advisering dan op de daadwerkelijke technische uitvoering en ontwikkeling, waar mijn interesse meer ligt.</p>
+      <p>PwC: Ik vond PwC minder aantrekkelijk omdat ik niet de drang heb om in de consultancy te gaan werken.
+         Consultancy lijkt me minder passend omdat het vaak meer gericht is op advisering dan op de daadwerkelijke technische uitvoering en ontwikkeling,
+          waar mijn interesse meer ligt.</p>
       <br/>
       <h3> Mogelijke werkzaamheden die je leuk vindt (en waarom!) </h3>
       <br/>
-      <p>Programmeren: Ik vind programmeren leuk omdat het me in staat stelt om creatieve oplossingen te ontwikkelen voor complexe problemen. Het geeft een gevoel van voldoening om iets te bouwen en direct de resultaten van je werk te zien. Bovendien biedt programmeren constante uitdagingen en mogelijkheden om nieuwe vaardigheden te leren.</p>
+      <p>Programmeren: Ik vind programmeren leuk omdat het me in staat stelt om creatieve oplossingen te ontwikkelen
+         voor complexe problemen. Het geeft een gevoel van voldoening om iets te bouwen en
+          direct de resultaten van je werk te zien. 
+          Bovendien biedt programmeren constante uitdagingen en mogelijkheden om nieuwe vaardigheden te leren.</p>
       <br/>
       <h3>Mogelijke werkzaamheden die je NIET leuk vindt (en waarom!) </h3>
       <br/>
-      <p>Advies geven: Ik vind het minder aantrekkelijk om advieswerkzaamheden te verrichten. Hoewel het belangrijk is, geniet ik er minder van omdat het vaak meer gaat om strategische en theoretische aspecten in plaats van hands-on werken aan technische projecten. Mijn voorkeur gaat uit naar het daadwerkelijk ontwikkelen en implementeren van oplossingen.</p>
+      <p>Advies geven: Ik vind het minder aantrekkelijk om advieswerkzaamheden te verrichten.
+         Hoewel het belangrijk is, geniet ik er minder van omdat het vaak meer gaat om strategische en theoretische aspecten in
+         plaats van hands-on werken aan technische projecten. 
+         Mijn voorkeur gaat uit naar het daadwerkelijk ontwikkelen en implementeren van oplossingen.</p>
       <br/>
       <h3> Beschrijving van de presentaties die je bijgewoond hebt </h3>
       <br/>

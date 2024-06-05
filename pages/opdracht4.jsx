@@ -10,8 +10,8 @@
       <h3>Kwaliteit: Organisator</h3>
       <br/>
       <h3>•	Waarom vind jij deze kwaliteit van toepassing? </h3>
-      <p>Deze groepsgenoot is altijd goed georganiseerd en weet precies wat er moet gebeuren en wanneer. 
-         Hij of zij houdt de taken en deadlines bij, wat zorgt voor een gestructureerde aanpak binnen de groep.</p>
+      <p>hij is altijd goed georganiseerd en weet precies wat er moet gebeuren en wanneer. 
+         Hij houdt de taken en deadlines bij, wat zorgt voor een gestructureerde aanpak binnen de groep.</p>
       <br/>
       <h3>•	Wat is het effect ervan op jou?</h3>
       <p> Het effect van deze kwaliteit op mij is zeer positief. 
@@ -23,8 +23,8 @@
       <h3>Vervorming: Afwachtend</h3>
       <br/>
       <h3>•	Waarom vind jij deze Vervorming van toepassing? </h3>
-      <p>Hoewel deze groepsgenoot goed georganiseerd is,
-         kan hij of zij soms afwachtend zijn als het gaat om het nemen van beslissingen of het initiëren van actie.
+      <p>Hoewel hij goed georganiseerd is,
+         kan hij soms afwachtend zijn als het gaat om het nemen van beslissingen.
          Dit kan de voortgang van het project vertragen.</p> 
       <br/>
       <h3>•	Wat is het effect ervan op jou?</h3>
@@ -37,9 +37,9 @@
       <h3>Kwaliteit: Doorzetter</h3>
       <br/>
       <h3>•	Waarom vind jij deze kwaliteit van toepassing? </h3>
-      <p>Deze groepsgenoot geeft nooit op,
+      <p>geeft nooit op,
          zelfs niet bij moeilijke taken of als we tegen obstakels aanlopen.
-         Hij of zij blijft gemotiveerd en werkt hard om de doelen te bereiken.</p>
+         Hij blijft gemotiveerd en werkt hard om de doelen te bereiken.</p>
       <br/>
       <h3>•	Wat is het effect ervan op jou?</h3>
       <p> Het doorzettingsvermogen van deze groepsgenoot inspireert me 
@@ -50,13 +50,13 @@
       <h3>Vervorming: Stil</h3>
       <br/>
       <h3>•	Waarom vind jij deze Vervorming van toepassing? </h3>
-      <p>Deze groepsgenoot is vaak stil tijdens vergaderingen en discussies, 
+      <p> Vaak stil tijdens vergaderingen en discussies, 
          wat kan betekenen dat waardevolle ideeën en input niet worden gedeeld.
          Dit kan de samenwerking en de creativiteit van de groep beperken.</p>
       <br/>
       <h3>•	Wat is het effect ervan op jou?</h3>
-      <p>Het stil zijn van deze groepsgenoot kan ervoor zorgen dat ik niet altijd 
-         weet wat hij of zij denkt of voelt over bepaalde onderwerpen.
+      <p>Het stil zijn kan ervoor zorgen dat ik niet altijd 
+         weet wat hij denkt of voelt over bepaalde onderwerpen.
          Dit maakt het moeilijker om goed samen te werken en volledig gebruik te maken
          van ieders kennis en vaardigheden.</p> 
       <br/>
