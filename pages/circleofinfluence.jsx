@@ -1,18 +1,18 @@
 
-// const ImagePage3 = () => {
-//     return (
-//       <>
-//       <div><img src="" alt="Italian Trulli" />
-//         </div>
-//       </>
-//     );
-//   };
+const ImagePage3 = () => {
+    return (
+      <>
+      <div><img src="/circleofinfluence1.png" alt="Italian Trulli" />
+        </div>
+      </>
+    );
+  };
   
-//   export async function getStaticProps() {
-//     return {
-//       props: { title: 'circleofinfluence' },
-//     };
-//   }
+  export async function getStaticProps() {
+    return {
+      props: { title: 'circleofinfluence' },
+    };
+  }
   
-//   export default ImagePage3;
+  export default ImagePage3;
   

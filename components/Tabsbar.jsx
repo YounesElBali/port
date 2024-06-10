@@ -12,7 +12,8 @@ const Tabsbar = () => {
       <Tab icon="/js_icon.svg" filename="geleerd.js" path="/geleerd" />
       <Tab icon="/placeholder.png" filename="bigfive.js" path="/bigfive" />
       <Tab icon="/placeholder.png" filename="caluwe.js" path="/caluwe" />
-   
+      <Tab icon="/placeholder.png" filename="circleofinfluence.js" path="/circleofinfluence" />
+
     </div>
   );
 };

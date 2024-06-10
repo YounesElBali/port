@@ -44,13 +44,12 @@ const explorerItems = [
     name: 'Caluwe.js',
     path: '/caluwe',
     icon: 'placeholder.png',
-  }
-  // ,
-  // {
-  //   name: 'circleofinfluence.js',
-  //   path: '/circleofinfluence',
-  //   icon: 'placeholder.png',
-  // },
+  },
+  {
+    name: 'circleofinfluence.js',
+    path: '/circleofinfluence',
+    icon: 'placeholder.png',
+  },
 ];
 
 const Explorer = () => {
