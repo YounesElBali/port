@@ -35,6 +35,22 @@ const explorerItems = [
     path: '/geleerd',
     icon: 'js_icon.svg',
   },
+  {
+    name: 'BigFive.js',
+    path: '/bigfive',
+    icon: 'placeholder.png',
+  },
+  {
+    name: 'Caluwe.js',
+    path: '/caluwe',
+    icon: 'placeholder.png',
+  }
+  // ,
+  // {
+  //   name: 'circleofinfluence.js',
+  //   path: '/circleofinfluence',
+  //   icon: 'placeholder.png',
+  // },
 ];
 
 const Explorer = () => {
