@@ -7,8 +7,12 @@ namespace MoskeeBackend.Controllers
     [Route("api/[controller]")]
     public class MarkdownController : ControllerBase
     {
-        private readonly string pagesDirectory = Path.Combine(Directory.GetCurrentDirectory(), "Pages");
+        private readonly string pagesDirectory;
 
+        public MarkdownController(IConfiguration configuration)
+        {
+            pagesDirectory = Path.Combine(Directory.GetCurrentDirectory(), configuration["PagesDirectory"]);
+        }
         [HttpGet("pages")]
         public IActionResult GetMarkdownPages()
         {
