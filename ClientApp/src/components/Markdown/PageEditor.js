@@ -5,7 +5,6 @@ import ReactQuill from 'react-quill';
 import TurndownService from 'turndown';
 import 'react-quill/dist/quill.snow.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import MarkdownRenderer from './MarkdownRenderer'; // Ensure this import statement is added
 import './PageEditor.css'; // Make sure this CSS file is created and imported
 
 const PageEditor = () => {

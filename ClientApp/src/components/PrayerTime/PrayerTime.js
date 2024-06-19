@@ -10,11 +10,11 @@ function PrayerTime() {
 
     useEffect(() => {
         fetchPrayerTimes();
-        // const today = new Date();
-        // const formattedDate = today.toLocaleDateString('nl-NL', {
-        //     weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
-        // });
-        // setCurrentDate(formattedDate);
+        const today = new Date();
+        const formattedDate = today.toLocaleDateString('nl-NL', {
+            weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+        });
+        setCurrentDate(formattedDate);
     }, []);
 
     const fetchPrayerTimes = async () => {

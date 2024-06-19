@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-// import ReactMarkdown from "react-markdown";
+import ReactMarkdown from "react-markdown";
 import axios from 'axios';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -50,9 +50,9 @@ const PagePreview = () => {
             <h1>{pageName ? pageName.split(".md") : "Page"}</h1>
             <br/>
             <div>
-                {/* <ReactMarkdown>
+                <ReactMarkdown>
                     {content}
-                </ReactMarkdown> */}
+                </ReactMarkdown>
             </div>
             <div className="mt-5">
                 <h2>Link naar het document</h2>

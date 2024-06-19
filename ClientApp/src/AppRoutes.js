@@ -7,8 +7,6 @@ import DonateSingle from './components/Donate/DonateSingle';
 import PageList from './components/Markdown/PageList';
 import PagePreview from './components/Markdown/PagePreview';
 import PageEditor from './components/Markdown/PageEditor';
-import BatchGenerator from './components/BatchGenerator/BatchGenerator';
-import AuthorizeView from './components/Authentication/AuthorizeView';
 import PrayerTime from './components/PrayerTime/PrayerTime';
 import Revert from './components/Revert/Revert';
 import Student from './components/Student/Student';
@@ -22,6 +20,10 @@ const AppRoutes = [
   {
     path: '/contact',
     element: <Contact />
+  },
+  {
+    path: '/login',
+    element: <Login />
   },
   {
     path: '/donatie',

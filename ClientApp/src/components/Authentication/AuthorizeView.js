@@ -1,5 +1,4 @@
 import React, { useState, useEffect, createContext } from 'react';
-import { Navigate } from 'react-router-dom';
 
 export const UserContext = createContext({});
 

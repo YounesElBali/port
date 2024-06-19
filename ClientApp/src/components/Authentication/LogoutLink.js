@@ -25,7 +25,7 @@ function LogoutLink(props) {
     };
 
     return (
-        <a href="#" onClick={handleSubmit}>{props.children}</a>
+        <a href="/" onClick={handleSubmit}>{props.children}</a>
     );
 }
 

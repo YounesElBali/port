@@ -1,7 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import favicon from '../../assets/faviconV2.png';
-import { Link } from 'react-router-dom';
 import Moskee from '../../assets/Moskee Noordwij.jpeg';
 import Logo from '../../assets/logo Moskee Arrahman.jpeg';
 import './HomeText.css';
