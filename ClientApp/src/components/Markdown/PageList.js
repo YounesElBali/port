@@ -12,7 +12,7 @@ const PageList = () => {
     useEffect(() => {
         const fetchPages = async () => {
             try {
-                const response = await axios.get(process.env.REACT_APP_API_URL +'/api/Markdown/pages'); // Update to your API URL
+                const response = await axios.get(`${process.env.REACT_APP_API_URL}/api/Markdown/pages`); // Update to your API URL
                 setPages(response.data);
             } catch (error) {
                 console.error('Error fetching pages:', error);

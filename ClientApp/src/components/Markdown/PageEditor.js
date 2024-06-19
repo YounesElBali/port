@@ -60,7 +60,7 @@ const PageEditor = () => {
         };
 
         try {
-            await axios.post(process.env.REACT_APP_API_URL + '/api/Markdown/pages', newPage); // Update to your API URL
+            await axios.post(`${process.env.REACT_APP_API_URL}/api/Markdown/pages`, newPage); // Update to your API URL
             navigate('/');
         } catch (error) {
             console.error('There was an error creating the page!', error);

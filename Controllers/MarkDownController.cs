@@ -11,7 +11,7 @@ namespace MoskeeBackend.Controllers
 
         public MarkdownController(IConfiguration configuration)
         {
-            pagesDirectory = Path.Combine(Directory.GetCurrentDirectory(), configuration["PagesDirectory"]);
+            pagesDirectory = Path.Combine(Directory.GetCurrentDirectory(),"Document");
         }
         [HttpGet("pages")]
         public IActionResult GetMarkdownPages()
