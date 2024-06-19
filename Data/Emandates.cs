@@ -2,44 +2,44 @@
 {
     public class Emandates
     {
-            public ContractSettings Contract { get; set; }
-            public MerchantSettings Merchant { get; set; }
-            public CertificateSettings AcquirerCertificate { get; set; }
-            public CertificateSettings SigningCertificate { get; set; }
-            public AcquirerSettings Acquirer { get; set; }
-            public ServiceLogsSettings ServiceLogs { get; set; }
-            public string ClientSettingsProviderServiceUri { get; set; }
+            public required ContractSettings Contract { get; set; }
+            public required MerchantSettings Merchant { get; set; }
+            public required CertificateSettings AcquirerCertificate { get; set; }
+            public required CertificateSettings SigningCertificate { get; set; }
+            public required AcquirerSettings Acquirer { get; set; }
+            public required ServiceLogsSettings ServiceLogs { get; set; }
+            public required string ClientSettingsProviderServiceUri { get; set; }
         }
 
         public class ContractSettings
         {
-            public string Id { get; set; }
-            public string SubId { get; set; }
+            public required string Id { get; set; }
+            public required string SubId { get; set; }
         }
 
         public class MerchantSettings
         {
-            public string ReturnUrl { get; set; }
+            public required string ReturnUrl { get; set; }
         }
 
         public class CertificateSettings
         {
-            public string Thumbprint { get; set; }
-            public string AlternateThumbprint { get; set; }
+            public required string Thumbprint { get; set; }
+            public required string AlternateThumbprint { get; set; }
         }
 
         public class AcquirerSettings
         {
-            public string DirectoryRequestUrl { get; set; }
-            public string TransactionRequestUrl { get; set; }
-            public string StatusRequestUrl { get; set; }
+            public required string DirectoryRequestUrl { get; set; }
+            public required string TransactionRequestUrl { get; set; }
+            public required string StatusRequestUrl { get; set; }
         }
 
         public class ServiceLogsSettings
         {
             public bool Enabled { get; set; }
-            public string Location { get; set; }
-            public string Pattern { get; set; }
+            public required string Location { get; set; }
+            public required string Pattern { get; set; }
         }
 
     

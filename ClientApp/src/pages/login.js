@@ -7,8 +7,7 @@ function Login() {
     const [password, setPassword] = useState("");
     const [rememberme, setRememberme] = useState(false);
     const [error, setError] = useState("");
-    const navigate = useNavigate();
-
+    
     const handleChange = (e) => {
         const { name, value } = e.target;
         if (name === "email") setEmail(value);
