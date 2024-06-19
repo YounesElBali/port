@@ -6,7 +6,7 @@ function DonateSingle() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.get('/api/Tikkie/GetTikkie');  // Ensure this is a GET request
+            const response = await axios.get('https://localhost:7268/api/Tikkie/GetTikkie');  // Ensure this is a GET request
             if (response.status === 200) {
                 const data = response.data;
                 window.location.href = data;

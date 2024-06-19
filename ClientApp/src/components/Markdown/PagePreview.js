@@ -12,7 +12,7 @@ const PagePreview = () => {
     useEffect(() => {
         const fetchPages = async () => {
             try {
-                const response = await axios.get('/api/Markdown/pages'); // Endpoint to fetch list of pages with metadata
+                const response = await axios.get(process.env.REACT_APP_API_URL +'/api/Markdown/pages'); // Endpoint to fetch list of pages with metadata
                 const pagesWithDates = response.data.map(page => {
                     // Extract date and title from the page name
                     const [dateStr, ...titleParts] = page.name.split(' ');

@@ -21,7 +21,7 @@ const BatchGenerator = () => {
 
     const executeMonthlyTask = async () => {
         try {
-            const response = await axios.get('/api/XMLFile/GetXMLFile');
+            const response = await axios.get(process.env.REACT_APP_API_URL +'/api/XMLFile/GetXMLFile');
             if (response.status === 200) {
                 localStorage.setItem('lastRun', new Date().toISOString());
                 console.log(response.data);

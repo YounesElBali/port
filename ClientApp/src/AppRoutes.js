@@ -4,7 +4,6 @@ import Contact from './components/Contact/Contact';
 import Donate from './components/Donate/DonatePage';
 import DonateMonthly from './components/Donate/DonateMonthly';
 import DonateSingle from './components/Donate/DonateSingle';
-import NavMenu from './components/Navmenu/Navmenu';
 import PageList from './components/Markdown/PageList';
 import PagePreview from './components/Markdown/PagePreview';
 import PageEditor from './components/Markdown/PageEditor';

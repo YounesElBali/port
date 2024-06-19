@@ -43,7 +43,7 @@ function AuthorizeView(props) {
             }
         }
 
-        fetchWithRetry("/pingauth", {
+        fetchWithRetry(process.env.REACT_APP_API_URL +"/pingauth", {
             method: "GET",
         })
             .catch((error) => {

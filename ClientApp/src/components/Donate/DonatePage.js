@@ -9,7 +9,7 @@ function Donate() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.get('/api/Tikkie/GetTikkie'); // Ensure this is a GET request
+            const response = await axios.get(process.env.REACT_APP_API_URL +'/api/Tikkie/GetTikkie'); // Ensure this is a GET request
             if (response.status === 200) {
                 const data = response.data;
                 window.location.href = data;

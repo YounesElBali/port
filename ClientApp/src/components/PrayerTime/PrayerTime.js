@@ -19,7 +19,7 @@ function PrayerTime() {
 
     const fetchPrayerTimes = async () => {
         try {
-            const response = await axios.get('https://localhost:7127/api/PrayerTimes/PrayerTime');
+            const response = await axios.get(process.env.REACT_APP_API_URL + '/api/PrayerTimes/PrayerTime');
             setPrayerTimes(response.data);
         } catch (error) {
             console.error('Error fetching prayer times:', error);

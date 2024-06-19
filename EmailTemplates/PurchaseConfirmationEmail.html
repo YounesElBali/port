@@ -1,0 +1,63 @@
+﻿<!-- PurchaseConfirmationEmail.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Confirmation</title>
+    <style>
+        /* Add your styling here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            padding: 20px;
+            background-color: #ffffff;
+            margin: 20px auto;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #777777;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Thank You for Your Purchase!</h1>
+        </div>
+        <div class="content">
+            <p>Dear {Name},</p>
+            <p>Thank you for your recent purchase. Here are the details of your transaction:</p>
+            <ul>
+                <li>Transaction ID: {TransactionId}</li>
+                <li>Amount: {Amount}</li>
+                <li>Date: {Date}</li>
+            </ul>
+            <p>If you have any questions, please feel free to contact us at support@example.com.</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>

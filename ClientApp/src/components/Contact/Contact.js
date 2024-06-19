@@ -26,7 +26,7 @@ function Contact() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post('/api/email/Contactform', formData);
+            await axios.post(process.env.REACT_APP_API_URL +'/api/email/Contactform', formData);
             alert('Email is succesvol verstuur!');
         } catch (error) {
             console.error('er is een fout onstaan bij het versturen van de email! Probeer het later opnieuw.', error);
