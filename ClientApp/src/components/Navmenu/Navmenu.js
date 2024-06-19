@@ -16,14 +16,14 @@ function NavMenu() {
         <>
             <nav className="navbar">
                 <div className="nav-container">
-                    <NavLink exact to="/" className="nav-logo">
+                    <NavLink  to="/" className="nav-logo">
                         <span>Moskee Arrahman</span>
                     </NavLink>
 
                     <ul className={collapsed ? "nav-menu" : "nav-menu active"}>
                         <li className="nav-item">
                             <NavLink
-                                exact
+                                
                                 to="/donatie"
                                 activeClassName="active"
                                 className="nav-links"
@@ -34,7 +34,7 @@ function NavMenu() {
                         </li>
                         <li className="nav-item">
                             <NavLink
-                                exact
+                                
                                 to="/contact"
                                 activeClassName="active"
                                 className="nav-links"
@@ -45,7 +45,7 @@ function NavMenu() {
                         </li>
                         <li className="nav-item">
                             <NavLink
-                                exact
+                                
                                 to="/student"
                                 activeClassName="active"
                                 className="nav-links"
@@ -56,7 +56,7 @@ function NavMenu() {
                         </li>
                         <li className="nav-item">
                             <NavLink
-                                exact
+                                
                                 to="/meerLeren"
                                 activeClassName="active"
                                 className="nav-links"
@@ -68,7 +68,7 @@ function NavMenu() {
                             <AuthorizeView>                   
                             <li className="nav-item">
                                 <NavLink
-                                    exact
+                                    
                                     to="/logout"
                                     activeClassName="active"
                                     className="nav-links"
