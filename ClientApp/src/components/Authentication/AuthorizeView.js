@@ -9,7 +9,7 @@ function AuthorizeView(props) {
 
     useEffect(() => {
         let retryCount = 0;
-        const maxRetries = 10;
+        const maxRetries = 3; // Set the maximum retry attempts to 3
         const delay = 1000;
 
         function wait(delay) {
@@ -33,7 +33,7 @@ function AuthorizeView(props) {
                 }
             } catch (error) {
                 retryCount++;
-                if (retryCount > maxRetries) {
+                if (retryCount >= maxRetries) {
                     throw error;
                 } else {
                     await wait(delay);
@@ -42,7 +42,7 @@ function AuthorizeView(props) {
             }
         }
 
-        fetchWithRetry(process.env.REACT_APP_API_URL +"/pingauth", {
+        fetchWithRetry(process.env.REACT_APP_API_URL + "/pingauth", {
             method: "GET",
         })
             .catch((error) => {

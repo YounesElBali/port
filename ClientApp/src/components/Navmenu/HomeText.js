@@ -14,7 +14,7 @@ function HomeText() {
                 <p className="lead">Making the world a better place, one step at a time.</p>
             </header>
             <section className="row text-center">
-                <div className="col-md-4">
+                <div className="col-lg-4 col-md-6 mb-4">
                     <div className="card shadow-sm uniform-card">
                         <img src={Logo} className="card-img-top" alt="Mission" />
                         <div className="card-body">
@@ -24,7 +24,7 @@ function HomeText() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-4 col-md-6 mb-4">
                     <div className="card shadow-sm uniform-card">
                         <img src={Moskee} className="card-img-top" alt="Programs" />
                         <div className="card-body">
@@ -34,7 +34,7 @@ function HomeText() {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-4 col-md-6 mb-4">
                     <div className="card shadow-sm uniform-card">
                         <img src={favicon} className="card-img-top" alt="Get Involved" />
                         <div className="card-body">
@@ -47,9 +47,6 @@ function HomeText() {
             </section>
 
         </div>
-        <div className="middle-image " >
-            <a href="/student" className="btn btn-primary rounded-pill mb-2">Student pagina</a>
-        </div> 
 
         <footer className="text-center mt-4">
             <p>&copy; 2024 Moskee Arrahman. Alle rechten voorbehouden.</p>

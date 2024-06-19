@@ -29,7 +29,7 @@ const PageList = () => {
     return (
         <div className="container mt-5">
             <div className="text-center mb-4">
-                <h1>Vrijdag preken van Moskee Arrahman</h1>
+                <h1>Vrijdagpreken van Moskee Arrahman</h1>
                 <b>Hier vindt u de vertaling van de preek die de imam iedere vrijdag geeft.</b>
             </div>
             <br/>

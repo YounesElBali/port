@@ -34,6 +34,7 @@ const PagePreview = () => {
         const fetchPageContent = async () => {
             if (pageName) {
                 try {
+                    console.log('the name it is going to look for '+ pageName)
                     const response = await axios.get(`/api/Markdown/pages/${pageName}`);
                     setContent(response.data);
                 } catch (error) {
