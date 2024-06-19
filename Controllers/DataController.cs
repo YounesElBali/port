@@ -1,9 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MoskeeBackend.Data;
 using MoskeeBackend.Services;
-using System;
 
 namespace MoskeeBackend.Controllers
 {

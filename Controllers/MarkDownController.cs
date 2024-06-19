@@ -1,5 +1,4 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MoskeeBackend.Controllers
@@ -52,7 +51,7 @@ namespace MoskeeBackend.Controllers
 
     public class MarkdownPageModel
     {
-        public string FileName { get; set; }
-        public string Content { get; set; }
+        public required string FileName { get; set; }
+        public required string Content { get; set; }
     }
 }

@@ -1,11 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Net.Http;
-using System.Threading.Tasks;
 using Newtonsoft.Json.Linq;
 using System.Text.RegularExpressions;
-using System.Collections.Generic;
-using StackExchange.Redis;
-
 namespace MoskeeBackend.Controllers
 {
     [ApiController]
@@ -40,7 +35,7 @@ namespace MoskeeBackend.Controllers
 
                 return Ok(new
                 {
-                    Fajr = times[0],
+                    Fajr =  times[0],
                     Sunrise = shuruq,
                     Dohr = times[1],
                     Asr = times[2],

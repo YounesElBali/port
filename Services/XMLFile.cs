@@ -1,7 +1,5 @@
 ﻿using MoskeeBackend.Data;
 using System.Xml.Linq;
-using System;
-using System.Linq;
 
 namespace MoskeeBackend.Services
 {

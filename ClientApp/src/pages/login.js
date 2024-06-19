@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Login() {
@@ -7,7 +6,7 @@ function Login() {
     const [password, setPassword] = useState("");
     const [rememberme, setRememberme] = useState(false);
     const [error, setError] = useState("");
-    
+
     const handleChange = (e) => {
         const { name, value } = e.target;
         if (name === "email") setEmail(value);
