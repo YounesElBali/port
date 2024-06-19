@@ -1,0 +1,51 @@
+.container {
+    margin-top: 40px;
+  }
+  
+  h4 {
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    font-weight: bold;
+  }
+  
+  input[type="text"], input[type="email"], input[type="date"], select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 25px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .text-danger {
+    color: red;
+    font-size: 14px;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  @media (max-width: 767px) {
+    .input-group {
+      margin-bottom: 15px;
+    }
+  }
+  

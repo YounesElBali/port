@@ -1,0 +1,50 @@
+.prayer-times-container {
+    text-align: center;
+}
+
+.prayer-times-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.prayer-times-list {
+    margin: 0 auto;
+    width: 50%;
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.prayer-time-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.prayer-time-item:last-child {
+    border-bottom: none;
+}
+
+.prayer-name,
+.prayer-arabic,
+.prayer-time {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.prayer-name {
+    text-align: left;
+}
+
+.prayer-arabic {
+    text-align: center;
+    font-family: 'Arial', sans-serif; /* Customize with an Arabic font if preferred */
+}
+
+.prayer-time {
+    text-align: right;
+}

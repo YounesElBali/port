@@ -1,0 +1,47 @@
+/* HomeText.css */
+.uniform-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.uniform-card .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    height: 450px;
+}
+
+.middle-image {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 50dvh;
+    /* background-image: url('../src/assets/quran.jpg'); */
+    background-image: -o-linear-gradient();
+}
+
+.middle-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.middle-image button {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

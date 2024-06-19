@@ -1,0 +1,18 @@
+/* PageList.css */
+.page-link {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.page-link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+.table-striped tbody tr:hover {
+    background-color: rgba(0, 123, 255, 0.15);
+}

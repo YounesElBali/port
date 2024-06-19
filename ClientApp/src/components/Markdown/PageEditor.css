@@ -1,0 +1,44 @@
+/* File: PageEditor.css */
+.container-fluid {
+    padding: 20px;
+}
+
+.editor-preview {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.editor-pane {
+    flex: 1;
+}
+
+.preview-pane {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+}
+
+.preview-pane h2 {
+    text-align: center;
+}
+
+.quill {
+    height: 400px;
+}
+
+.quill .ql-container {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+.markdown-body {
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #e1e4e8;
+    border-radius: 5px;
+    max-height: 400px;
+    overflow-y: auto;
+}
