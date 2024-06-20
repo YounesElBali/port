@@ -1,0 +1,15 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/Youneselbali/public_html/
+    - dotnet publish -c Release -o $DEPLOYPATH
+    - cp -R ClientApp/public/* $DEPLOYPATH/wwwroot/
+    - cp -R ClientApp/src/* $DEPLOYPATH/src/
+    - cp ClientApp/.env $DEPLOYPATH
+    - cp ClientApp/.env.development $DEPLOYPATH
+    - cp ClientApp/.env.development.local $DEPLOYPATH
+    - cp ClientApp/aspnetcore-https.js $DEPLOYPATH
+    - cp ClientApp/aspnetcore-react.js $DEPLOYPATH
+    - cp ClientApp/package.json $DEPLOYPATH
+    - cp ClientApp/package-lock.json $DEPLOYPATH
+    - cp ClientApp/README.md $DEPLOYPATH
