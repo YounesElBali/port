@@ -1,15 +1,27 @@
+
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/fyhbsavjjdzz/public_html/
-    - dotnet publish -c Release -o $DEPLOYPATH
-    - cp -R ClientApp/public/* $DEPLOYPATH/wwwroot/
-    - cp -R ClientApp/src/* $DEPLOYPATH/src/
-    - cp ClientApp/.env $DEPLOYPATH
-    - cp ClientApp/.env.development $DEPLOYPATH
-    - cp ClientApp/.env.development.local $DEPLOYPATH
-    - cp ClientApp/aspnetcore-https.js $DEPLOYPATH
-    - cp ClientApp/aspnetcore-react.js $DEPLOYPATH
-    - cp ClientApp/package.json $DEPLOYPATH
-    - cp ClientApp/package-lock.json $DEPLOYPATH
-    - cp ClientApp/README.md $DEPLOYPATH
+    # Define the deployment path to the document root of your website
+    - export DEPLOYPATH=/home/fyhbsavjjdzz/testmoskeearrahman.fun/
+
+    # Install .NET SDK (if not installed, skip this step if it's already available on your server)
+    - wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+    - dpkg -i packages-microsoft-prod.deb
+    - apt-get update
+    - apt-get install -y apt-transport-https
+    - apt-get update
+    - apt-get install -y dotnet-sdk-8.0
+
+    # Build your .NET React app
+    - dotnet publish -c Release -o ./publish
+
+    # Copy the published files to the deployment path
+    - cp -r ./publish/* $DEPLOYPATH
+
+    # If you have any additional static files (like from React build), copy them as well
+    - cp -r ./ClientApp/build/* $DEPLOYPATH
+
+    # Ensure correct permissions (optional)
+    - chmod -R 755 $DEPLOYPATH
+
