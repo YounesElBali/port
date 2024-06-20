@@ -15,8 +15,8 @@ namespace MoskeeBackend.Services
 
         public Task SendEmailAsync(string email, string subject, string message )
         {
-            var mail = "younes.elbali@outlook.com";
-            var pw = "2pRWD$4*aY6d2#f";
+            var mail = "";
+            var pw = "";
 
             var client = new SmtpClient("smtp-mail.outlook.com", 587)
             {
