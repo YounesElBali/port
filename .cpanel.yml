@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/Youneselbali/public_html/
+    - export DEPLOYPATH=/home/fyhbsavjjdzz/public_html/
     - dotnet publish -c Release -o $DEPLOYPATH
     - cp -R ClientApp/public/* $DEPLOYPATH/wwwroot/
     - cp -R ClientApp/src/* $DEPLOYPATH/src/
